@@ -158,7 +158,9 @@
     [self setup];
     [self debug:@"[viewDidLoad]"];
 
-    BOOL isLoggedIn = [self.userDefaults boolForKey:@"loggedIn"];
+    // BOOL isLoggedIn = [self.userDefaults boolForKey:@"loggedIn"];
+    BOOL isLoggedIn = true;
+    
 
     if (!isLoggedIn) {
 
