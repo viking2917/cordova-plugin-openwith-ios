@@ -54,6 +54,8 @@ cordova plugin add cordova-plugin-openwith-ios \
 
 It shouldn't be too hard. But just in case, Jean-Christophe Hoelt [posted a screencast of it](https://youtu.be/eaE4m_xO1mg).
 
+**NOTE**: See this comment about the need to sometimes manually edit the plist file: https://github.com/EternallLight/cordova-plugin-openwith-ios/issues/3
+
 ### iOS Setup
 
 After having installed the plugin, with the ios platform in place, 1 operation needs to be done manually: setup the App Group on both the Cordova App and the Share Extension.
